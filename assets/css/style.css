@@ -54,3 +54,21 @@ img {
     background-color:#fbb545;
     color:white;
 }
+
+/* Slider */ 
+
+.slide-1 {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../images/alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+
+.slide-2 {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../images/kagyana-2955466_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
