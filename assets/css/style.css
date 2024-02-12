@@ -1,31 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap");
 
 body {
-    font-family: "Spline Sans", sans-serif;
-    color: #777;
-    line-height: 1.7;
+  font-family: "Spline Sans", sans-serif;
+  color: #777;
+  line-height: 1.7;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-weight:600;
-    color: #222;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222;
 }
 
 a {
-    color: #222;
-    text-decoration: none;
-    transition: all 0.4s;
-    font-weight: 600;
+  color: #222;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-weight: 600;
 }
 
 a:hover {
-    color: #f58d17;
+  color: #f58d17;
 }
 
 img {
-    min-width: 100%;
+  min-width: 100%;
 }
 
 .logo {
-   height: 60px;
+  height: 120px;
+}
+
+/* Button */
+
+.btn {
+  border-radius: 0%;
+  padding: 14px 38px;
+}
+
+.btn-brand {
+  background-color: #f58d17;
+  border-color: #f58d17;
+  font-weight: 500;
+  color: white;
+}
+
+.btn-brand:hover {
+    border-color: #fbb545;
+    background-color:#fbb545;
+    color:white;
 }
