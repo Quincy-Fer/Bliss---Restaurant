@@ -27,12 +27,12 @@ a:hover {
   color: #f58d17;
 }
 
-img {
-  min-width: 100%;
-}
+
 
 .logo {
-  height: 110px;
+  height: 100px;
+ 
+  background-size: cover;
 }
 
 /* Button */
@@ -50,57 +50,55 @@ img {
 }
 
 .btn-brand:hover {
-    border-color: #fbb545;
-    background-color:#fbb545;
-    color:white;
+  border-color: #fbb545;
+  background-color: #fbb545;
+  color: white;
 }
 
-/* Slider */ 
+/* Slider */
 
 .slide-1 {
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../images/alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg);
-    background-position: center;
-    background-size: cover; 
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-
 .slide-2 {
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../images/kagyana-2955466_1280.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/kagyana-2955466_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .carousel-control-prev,
 .carousel-control-next {
-    background-color:rgba(0, 0, 0, 0.41);
-    width: 40px;
-    height: 60px;
-    margin: auto;
+  background-color: rgba(0, 0, 0, 0.41);
+  width: 40px;
+  height: 60px;
+  margin: auto;
 }
 
-.white-block::before{
-    content: "";
-    height: 3px;
-    width: 50px;
-    background-color: white;
-    display: inline-block;
-    margin: 10px;
-    vertical-align: middle;
-    
+.white-block::before {
+  content: "";
+  height: 3px;
+  width: 50px;
+  background-color: white;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
 }
 
-.white-block::after{
-    content: "";
-    height: 3px;
-    width: 50px;
-    background-color: white;
-    display: inline-block;
-    margin: 10px;
-    vertical-align: middle;
-    
+.white-block::after {
+  content: "";
+  height: 3px;
+  width: 50px;
+  background-color: white;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
 }
 
-
-
+/* About */
 
