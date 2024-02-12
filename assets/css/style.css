@@ -71,4 +71,36 @@ img {
     background-size: cover;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    background-color:rgba(0, 0, 0, 0.41);
+    width: 40px;
+    height: 60px;
+    margin: auto;
+}
+
+.white-block::before{
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    
+}
+
+.white-block::after{
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    
+}
+
+
+
 
