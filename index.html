@@ -14,7 +14,7 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-white shadow py-1 sticky-top">
+    <nav class="navbar navbar-expand-lg bg-white shadow py-1 fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><img
@@ -36,7 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#">breakfast</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#about">About</a>
@@ -88,7 +88,9 @@
                   <h1 class="display-1 text-white fw-bold mt-4">
                     A Taste Of Tradition
                   </h1>
-                  <a href="#" class="btn btn-brand mt-4 menu-btn">See Menu</a>
+                  <a href="#menu" class="btn btn-brand mt-4 menu-btn"
+                    >See Menu</a
+                  >
                 </div>
               </div>
             </div>
@@ -140,7 +142,7 @@
                 sets the stage for lively conversations, laughter, and an
                 unforgettable dining experience.
               </p>
-              <a href="#" class="btn btn-brand my-xl-5">Explore Menu</a>
+              <a href="#" class="btn btn-brand my-xl-5">Get Table</a>
             </div>
           </div>
         </div>
@@ -159,6 +161,81 @@
                 menu offers a symphony of tastes that will leave you craving for
                 more.
               </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-breakfast-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-breakfast"
+                type="button"
+                role="tab"
+                aria-controls="pills-breakfast"
+                aria-selected="true"
+              >
+                Breakfast
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-lunch-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-lunch"
+                type="button"
+                role="tab"
+                aria-controls="pills-lunch"
+                aria-selected="true"
+              >
+                Lunch
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-dinner-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-dinner"
+                type="button"
+                role="tab"
+                aria-controls="pills-dinner"
+                aria-selected="true"
+              >
+                Dinner
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-breakfast"
+              role="tabpanel"
+              aria-labelledby="pills-breakfast-tab"
+              tabindex="0"
+            >
+              <h4>Breakfast</h4>
+            </div>
+            <div
+              class="tab-pane fade show"
+              id="pills-lunch"
+              role="tabpanel"
+              aria-labelledby="pills-lunch-tab"
+              tabindex="0"
+            >
+              <h4>Lunch</h4>
+            </div>
+            <div
+              class="tab-pane fade show"
+              id="pills-dinner"
+              role="tabpanel"
+              aria-labelledby="pills-dinner-tab"
+              tabindex="0"
+            >
+              <h4>Dinner</h4>
             </div>
           </div>
         </div>
