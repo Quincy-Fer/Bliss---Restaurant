@@ -31,9 +31,8 @@ img {
   width: 100%;
 }
 
-
 .logo {
-  height: 100px; 
+  height: 100px;
   background-size: cover;
 }
 
@@ -61,7 +60,7 @@ img {
   background-color: transparent;
   border-color: #f58d17;
   color: white;
-  border: 3px solid; 
+  border: 3px solid;
 }
 
 .menu-btn:hover {
@@ -133,7 +132,7 @@ img {
   border: 2px solid #f58d17;
   margin-left: 8px;
   margin-right: 8px;
-  color:#f58d17;
+  color: #f58d17;
 }
 
 #menu .nav-pills .nav-link.active {
@@ -142,8 +141,8 @@ img {
   border: none;
 }
 
-.card-img-top{
-  height:400px;
+.card-img-top {
+  height: 400px;
   background-size: cover;
   background-position: center;
 }
