@@ -142,3 +142,8 @@ img {
   border: none;
 }
 
+.card-img-top{
+  height:400px;
+  background-size: cover;
+  background-position: center;
+}
