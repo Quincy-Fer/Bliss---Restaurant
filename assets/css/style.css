@@ -147,3 +147,7 @@ img {
   background-size: cover;
   background-position: center;
 }
+
+.price-color {
+  color: #ff8902;
+}
