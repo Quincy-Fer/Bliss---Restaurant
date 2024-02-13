@@ -58,6 +58,14 @@ img {
   color: white;
 }
 
+.menu-btn {
+  background-color: transparent;
+  border-color: #f58d17;
+  color: white;
+  border: 3px solid;
+  
+}
+
 /* Slider */
 
 .slide-1 {
