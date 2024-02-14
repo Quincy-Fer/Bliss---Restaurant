@@ -187,3 +187,17 @@ img {
 .card:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+/*Testimonial */
+
+.testimonial-bg{
+  background-color: #f58d17;
+}
+
+.divider2 {
+  width: 200px;
+  height: 2px;
+  display: block;
+  background-color: white;
+  margin-bottom: 16px;
+}
