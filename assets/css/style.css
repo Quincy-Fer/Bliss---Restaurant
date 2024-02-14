@@ -194,10 +194,22 @@ img {
   background-color: #f58d17;
 }
 
-.divider2 {
-  width: 200px;
-  height: 2px;
-  display: block;
-  background-color: white;
-  margin-bottom: 16px;
+.review img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.review .quote-icon {
+  font-size: 50px;
+  color: #f58d17;
+}
+
+
+.carouselicon{
+  background-color: #f58d17;
+}
+
+.carouseliconarrow{
+  background-color: #f58d17;
 }
