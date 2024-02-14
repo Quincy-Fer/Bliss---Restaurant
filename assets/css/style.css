@@ -6,6 +6,10 @@ body {
   line-height: 1.7;
 }
 
+html {
+  scroll-padding-top: 110px; /* height of sticky header */
+}
+
 h1,
 h2,
 h3,
@@ -73,12 +77,15 @@ img {
 .navbar-link{
   position: relative;
 }
+
+
+
 .navbar-link::after{
   content: '';
   opacity: 0;
   transition:all 0.3s;
   height: 2px;
-  width: 70%;
+  width: 30px;
   background-color: #ff8902;
   position: absolute;
   bottom: 0;
