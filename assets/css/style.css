@@ -78,8 +78,6 @@ img {
   position: relative;
 }
 
-
-
 .navbar-link::after{
   content: '';
   opacity: 0;
