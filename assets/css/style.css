@@ -236,18 +236,37 @@ img {
   top: 50%;
   left: 50%;
   font-size: 28px;
-  transform: translate(-50%,-50%);
-  opacity:0;  
+  transform: translate(-50%, -50%);
+  opacity: 0;
 }
 
 .insta-posts img {
   transition: all 0.5s ease;
 }
 
-.insta-posts:hover img{
+.insta-posts:hover img {
   transform: scale(1.2);
 }
 
-.insta-posts:hover .insta-btn{
+.insta-posts:hover .insta-btn {
   opacity: 1;
+}
+
+/*Final Cta*/
+
+.div-final-image {
+  height: 660px;
+  position: relative;
+}
+
+.final-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: -20% 0;
+  filter: brightness(0.6);
+}
+
+.final-cta-h1 {
+  position: absolute;
 }
