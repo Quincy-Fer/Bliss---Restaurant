@@ -72,16 +72,16 @@ img {
   background-color: #f58d17;
   color: white;
 }
-/* Navbar link effect */ 
+/* Navbar link effect */
 
-.navbar-link{
+.navbar-link {
   position: relative;
 }
 
-.navbar-link::after{
-  content: '';
+.navbar-link::after {
+  content: "";
   opacity: 0;
-  transition:all 0.3s;
+  transition: all 0.3s;
   height: 2px;
   width: 30px;
   background-color: #ff8902;
@@ -94,7 +94,6 @@ img {
 .navbar-link:hover::after {
   opacity: 1;
 }
-
 
 /* Slider */
 
@@ -190,7 +189,7 @@ img {
 
 /*Testimonial */
 
-.testimonial-bg{
+.testimonial-bg {
   background-color: #f58d17;
 }
 
@@ -205,11 +204,17 @@ img {
   color: #f58d17;
 }
 
-
-.carouselicon{
+.carouselicon {
   background-color: #f58d17;
 }
 
-.carouseliconarrow{
+.carouseliconarrow {
   background-color: #f58d17;
+}
+
+/*Gallery */
+
+.gallery-pic {
+  height: 350px;
+  object-fit: cover;
 }
