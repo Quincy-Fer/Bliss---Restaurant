@@ -280,3 +280,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.copyright-underline {
+  text-decoration:underline;
+  text-underline-offset: 3px;
+}
