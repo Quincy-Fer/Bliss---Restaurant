@@ -254,11 +254,29 @@ img {
 
 /*Final Cta*/
 
-.final-cta-top{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/final-cta-image.jpg) ;
+.final-cta-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/final-cta-image.jpg);
   height: 600px;
   object-fit: cover;
 }
-.final-cta-color{
+.final-cta-color {
   color: rgba(255, 255, 255, 0.801);
+}
+
+/*Footer*/
+
+footer {
+  background-color: #f58d17;
+}
+
+
+.background-icons {
+  border-radius: 50%;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
