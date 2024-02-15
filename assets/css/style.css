@@ -254,19 +254,11 @@ img {
 
 /*Final Cta*/
 
-.div-final-image {
-  height: 660px;
-  position: relative;
-}
-
-.final-image {
-  height: 100%;
-  width: 100%;
+.final-cta-top{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/final-cta-image.jpg) ;
+  height: 600px;
   object-fit: cover;
-  object-position: -20% 0;
-  filter: brightness(0.6);
 }
-
-.final-cta-h1 {
-  position: absolute;
+.final-cta-color{
+  color: rgba(255, 255, 255, 0.801);
 }
