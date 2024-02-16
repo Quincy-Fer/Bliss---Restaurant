@@ -946,7 +946,7 @@
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
         >
-          <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
               <div class="modal-header border-bottom-0">
                 <h1
@@ -955,7 +955,7 @@
                 >
                   Book a table !
                 </h1>
-                
+
                 <button
                   type="button"
                   class="btn-close"
@@ -963,9 +963,87 @@
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body">
+              <div class="modal-body border-bottom-0">
                 <form action="#">
-                  <input type="email" class="form-control" />
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <label for="date">Pick a date:</label>
+                      <input
+                        type="date"
+                        name="date"
+                        id="date"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-sm-4">
+                      <label for="time">Choose a Time:</label>
+                      <input type="time" id="time" class="form-control" />
+                    </div>
+                    <div class="col-sm-4">
+                      <label for="selects">People:</label>
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five</option>
+                        <option value="6">Six</option>
+                        <option value="7">Seven</option>
+                        <option value="8">Eight</option>
+                        <option value="9">Nine</option>
+                        <option value="10">Ten</option>
+                        <option value="11">Eleven</option>
+                        <option value="12">Twelve</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row mt-5">
+                    <div class="col-12 col-sm-6 col-lg-4 d-flex">
+                      <div class="form-floating me-2">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="firstname"
+                          placeholder="Your Name"
+                        />
+                        <label for="firstname" class="">First Name</label>
+                      </div>
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="secondname"
+                          placeholder="Your Name"
+                        />
+                        <label for="secondname">Last Name</label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                      <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your Email"
+                        />
+                        <label for="email">E-mail</label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                      <div class="form-floating">
+                        <input
+                          type="tel"
+                          class="form-control"
+                          id="telephone"
+                          placeholder="Telephone"
+                        />
+                        <label for="secondname">Telephone</label>
+                      </div>
+                    </div>
+                  </div>
                 </form>
               </div>
               <div class="modal-footer">
