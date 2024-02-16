@@ -299,3 +299,7 @@ footer {
   color: #f58d17;
   text-decoration: underline;
 }
+
+textarea {
+  resize: none;
+}
