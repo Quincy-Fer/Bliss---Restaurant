@@ -8,7 +8,7 @@ In order to view the website clone the repository and open index.html in your br
 **Resources used:**
 
 * The logo was made with [Logo.com](https://app.logo.com/).
-* Icons are found on[Bootstrap Icons](https://icons.getbootstrap.com/)
+* Icons are found on [Bootstrap Icons](https://icons.getbootstrap.com/)
 * The images were found on [Unsplash](https://unsplash.com/)
 * Help with the sitemap and sections [Relume](https://www.relume.io/)
 * Finally I used [Chatgpt](https://chat.openai.com/) to help with copywriting
