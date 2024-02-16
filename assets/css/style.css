@@ -270,7 +270,6 @@ footer {
   background-color: #f58d17;
 }
 
-
 .background-icons {
   border-radius: 50%;
   background-color: white;
@@ -282,6 +281,21 @@ footer {
 }
 
 .copyright-underline {
-  text-decoration:underline;
+  text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+/*Modal Styling*/
+
+.modal-header-color {
+  color: #f58d17;
+}
+
+.cancel-button {
+  color: #777;
+}
+
+.cancel-button:hover {
+  color: #f58d17;
+  text-decoration: underline;
 }
