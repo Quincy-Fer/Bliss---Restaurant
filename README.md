@@ -1,6 +1,7 @@
 ### Restaurant Website
 
-Created this website for a local restaurant! The site is fully responsive for mobile, tablets and desktop
+Created this website for a local restaurant! The site is fully responsive for mobile, tablets and desktop.
+
 Link to live website : (https://quincy-fer.github.io/Bliss---Restaurant/)
 
 ### To run the website yourself:
