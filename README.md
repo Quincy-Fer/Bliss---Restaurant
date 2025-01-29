@@ -1,7 +1,6 @@
 ### Restaurant Website
 
-Created the website using html javascript css and bootstrap!
-It's a website for a restaurant which is fully responsive for mobile and tablets as well.
+Created this website for a local restaurant! The site is fully responsive for mobile, tablets and desktop
 
 ### To run the website yourself:
 * Clone the repository
