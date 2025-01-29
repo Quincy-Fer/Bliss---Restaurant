@@ -6,7 +6,8 @@ It's a website for a restaurant which is fully responsive for mobile and tablets
 ### Run the website yourself
 * Clone the repository
 * Right click the index.html file and select open with. Select your favorite browser
-* Alternatively open the project inside your IDE and preview the code inside your IDE. Or open http://localhost:3000/ 
+* Alternatively open the project inside your IDE and preview the code inside your IDE.
+* Open http://localhost:3000/ 
 
 
 **Resources used:**
