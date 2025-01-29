@@ -1,6 +1,6 @@
 ### Restaurant Website
 
-Created my first website using html javascript css and bootstrap!
+Created the website using html javascript css and bootstrap!
 It's a website for a restaurant which is fully responsive for mobile and tablets as well.
 
 ### Run the website yourself
