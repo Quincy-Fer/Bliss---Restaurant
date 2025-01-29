@@ -37,8 +37,7 @@ img {
 }
 
 .logo {
-  height: 85px;
-  
+  height: 65px;
   background-size: cover;
 }
 
@@ -47,6 +46,10 @@ img {
 .btn {
   border-radius: 0%;
   padding: 14px 20px;
+}
+
+.nav-btn {
+  padding: 12px 14px;
 }
 
 .btn-brand {
