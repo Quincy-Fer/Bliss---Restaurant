@@ -3,7 +3,11 @@
 Created my first website using html javascript css and bootstrap!
 It's a website for a restaurant which is fully responsive for mobile and tablets as well.
 
-In order to view the website clone the repository and open index.html in your browser
+### Run the website yourself
+* Clone the repository
+* Right click the index.html file and select open with. Select your favorite browser
+* Alternatively open the project inside your IDE and preview the code inside your IDE. Or open http://localhost:3000/ 
+
 
 **Resources used:**
 
