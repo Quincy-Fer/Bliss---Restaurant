@@ -4,6 +4,10 @@ Created this website for a local restaurant. The site is fully responsive for mo
 
 View live website here! (https://quincy-fer.github.io/Bliss---Restaurant/)
 
+![bliss menu sectie](https://github.com/user-attachments/assets/f590dbbf-0e98-4f5c-a574-0437d550b641)
+
+
+
 ### To run the website yourself:
 * Clone the repository
 * Right click the index.html file and select open with. Select your favorite browser
